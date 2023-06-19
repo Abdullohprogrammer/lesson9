@@ -1,0 +1,195 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.fon {
+   background-color: #184655;
+}
+
+.emblema {
+   position: absolute;
+   width: 77px;
+   height: 36.62px;
+   left: 373px;
+   top: 54px;
+}
+
+.menu {
+   position: absolute;
+   width: 52px;
+   height: 22px;
+   left: 721px;
+   top: 59px;
+   color: #A1B5BB;
+}
+
+.menu2 {
+   position: absolute;
+   width: 52px;
+   height: 22px;
+   left: 823px;
+   top: 59px;
+   text-decoration: none;
+   color: #A1B5BB;
+}
+
+.menu3 {
+   position: absolute;
+   width: 64px;
+   height: 22px;
+   left: 925px;
+   top: 59px;
+   text-decoration: none;
+   color: #A1B5BB;
+}
+
+.menu4 {
+   position: absolute;
+   width: 73px;
+   height: 22px;
+   left: 1039px;
+   top: 59px;
+   text-decoration: none;
+   color: #A1B5BB;
+}
+
+.menu5 {
+   position: absolute;
+   width: 38px;
+   height: 22px;
+   left: 1162px;
+   top: 59px;
+   text-decoration: none;
+   color: #A1B5BB;
+}
+
+.menu6 {
+   position: absolute;
+   width: 71px;
+   height: 29px;
+   left: 1441px;
+   top: 59px;
+   border-radius: 15%;
+   text-decoration: none;
+   background-color:  #145E76;;
+   color: #A1B5BB;
+}
+
+
+.home-container button.musa {
+   position: absolute;
+   font-size: 24px;
+   border-radius: 30px;
+   background-color:#094556;
+   color: #FFFFFF;
+   width: 195px;
+   height: 65px;
+   left: 375px;
+   top: 253px;
+
+}
+
+.home-container h1 {
+   position: absolute;
+   width: 537px;
+   left: 375px;
+   top: 358px;
+   font-size: 64px;
+   line-height: 80px;
+   color: #FFFFFF;
+}
+
+.home-container p {
+   position: absolute;
+   width: 511px;
+   left: 375px;
+   top: 628px;
+   font-size: 18px;
+   line-height: 29px;
+   color: #849499;
+   
+}
+
+.busines {
+   position: absolute;
+   width: 599px;
+   height: 730px;
+   left: 946px;
+   top: 136px;
+   background: url(../images/businessman.png);
+}
+
+.home-container button.me {
+   position: absolute;
+   font-weight: 600;
+   font-size: 18px;
+   background: #FFA63A;
+   border-radius: 25px;
+   color: #FFFFFF;
+   width: 137px;
+   height: 61px;
+   left: 376px;
+   top: 736px;
+
+}
+
+.home-container a {
+   position: absolute;
+   left: 563px;
+   top: 752px;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 29px;
+   color: #B6CDD5;
+}
+
+.selectors {
+   position: absolute;
+   width: 1170px;
+   height: 323px;
+   left: 376px;
+   top: 952px;
+   background: #FFFFFF;
+   box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
+   border-radius: 30px;
+}
+
+.selectors {
+   position: absolute; 
+   text-align: center;
+   color: #265A6A; 
+}
+
+.selectors p.a {
+   width: 139.38px;
+   font-weight: 600;
+   font-size: 48px;
+   margin-left: 100px;
+   margin-top: 150px;
+   color: #08546C;
+}
+
+.selectors p.delivery {
+   width: 139.38px;
+   font-weight: 600;
+   font-size: 48px;
+   margin-left: 100px;
+   color: #08546C;
+}
+
+.hamburger {
+   display: none;
+}
+
+@media (max-width: 800px) {
+   .home {
+      display: none;
+   }
+   
+.hamburger {
+   display: block;
+   background-color: transparent;
+}
+}
